@@ -1,0 +1,83 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+
+.navbar {
+    background-color: #574964 ;}
+
+.navbar-logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ecf0f1 ;
+    text-decoration: none;}
+
+.navbar-logo:hover,
+.nav-link:hover {
+    color: #FFDAB3 ;}
+
+.nav-link {
+    color: #ecf0f1 ;
+    padding: 8px 15px;}
+
+#home {
+    background-color: #9F8383;
+    color: #fff;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;}
+
+#home h1 {
+    font-size: 4rem;}
+
+#home p {
+    font-size: 1.5rem;}
+
+
+section {
+    padding: 60px 0;}
+
+#skills, #education {
+    background-color: #C8AAAA;}
+
+#projects {
+    background-color: #ecf0f1;}
+
+h2 {
+    color: #574964;
+    text-align: center;
+    margin-bottom: 30px;}
+
+/* Cards */
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;}
+
+.card:hover {
+    transform: translateY(-10px);}
+
+.card-title {
+    color: #574964;}
+
+
+footer {
+    background-color: #574964;
+    color: #ecf0f1;
+    padding: 20px 0;
+    text-align: center;}
+
+.footer-social-icons a {
+    color: #ecf0f1;
+    margin: 0 10px;
+    font-size: 1.5rem;
+    transition: color 0.3s;}
+
+.footer-social-icons a:hover {
+    color: #3498db;}
